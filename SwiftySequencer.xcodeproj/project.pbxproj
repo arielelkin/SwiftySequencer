@@ -500,6 +500,7 @@
 				B0D2BE7B1AD83BFF004799B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0D2BE7C1AD83BFF004799B2 /* Build configuration list for PBXNativeTarget "SwiftySequencerTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +509,7 @@
 				B0D2BE7E1AD83BFF004799B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
