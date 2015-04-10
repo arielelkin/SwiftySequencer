@@ -6,4 +6,11 @@
 //  Copyright (c) 2015 Ariel. All rights reserved.
 //
 
+@import AVFoundation;
+@import Accelerate;
 #import "TheAmazingAudioEngine.h"
+
+#import "AESequencerChannel.h"
+#import "AESequencerChannelSequence.h"
+#import "AESequencerBeat.h"
+
