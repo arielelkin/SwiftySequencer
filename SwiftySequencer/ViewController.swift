@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        var controller = AEAudioController(audioDescription: AEAudioController.nonInterleavedFloatStereoAudioDescription())
+
     }
 
     override func didReceiveMemoryWarning() {

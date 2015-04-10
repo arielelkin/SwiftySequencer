@@ -13,6 +13,7 @@
 		B0D2BE671AD83BFF004799B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D2BE661AD83BFF004799B2 /* Images.xcassets */; };
 		B0D2BE6A1AD83BFF004799B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0D2BE681AD83BFF004799B2 /* LaunchScreen.xib */; };
 		B0D2BE761AD83BFF004799B2 /* SwiftySequencerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D2BE751AD83BFF004799B2 /* SwiftySequencerTests.swift */; };
+		B0D2BE851AD83C66004799B2 /* libTheAmazingAudioEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D2BE841AD83C5C004799B2 /* libTheAmazingAudioEngine.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +23,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = B0D2BE591AD83BFE004799B2;
 			remoteInfo = SwiftySequencer;
+		};
+		B0D2BE831AD83C5C004799B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0D2BE7F1AD83C5C004799B2 /* TheAmazingAudioEngine.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C215CEC1523A7D500D36CAD;
+			remoteInfo = TheAmazingAudioEngine;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -36,6 +44,8 @@
 		B0D2BE6F1AD83BFF004799B2 /* SwiftySequencerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftySequencerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D2BE741AD83BFF004799B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0D2BE751AD83BFF004799B2 /* SwiftySequencerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySequencerTests.swift; sourceTree = "<group>"; };
+		B0D2BE7F1AD83C5C004799B2 /* TheAmazingAudioEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TheAmazingAudioEngine.xcodeproj; path = TheAmazingAudioEngine/TheAmazingAudioEngine.xcodeproj; sourceTree = "<group>"; };
+		B0D2BE861AD83C71004799B2 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D2BE851AD83C66004799B2 /* libTheAmazingAudioEngine.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +70,8 @@
 		B0D2BE511AD83BFE004799B2 = {
 			isa = PBXGroup;
 			children = (
+				B0D2BE861AD83C71004799B2 /* Bridging-Header.h */,
+				B0D2BE7F1AD83C5C004799B2 /* TheAmazingAudioEngine.xcodeproj */,
 				B0D2BE5C1AD83BFE004799B2 /* SwiftySequencer */,
 				B0D2BE721AD83BFF004799B2 /* SwiftySequencerTests */,
 				B0D2BE5B1AD83BFE004799B2 /* Products */,
@@ -110,6 +123,14 @@
 				B0D2BE741AD83BFF004799B2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0D2BE801AD83C5C004799B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0D2BE841AD83C5C004799B2 /* libTheAmazingAudioEngine.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +200,12 @@
 			mainGroup = B0D2BE511AD83BFE004799B2;
 			productRefGroup = B0D2BE5B1AD83BFE004799B2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B0D2BE801AD83C5C004799B2 /* Products */;
+					ProjectRef = B0D2BE7F1AD83C5C004799B2 /* TheAmazingAudioEngine.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B0D2BE591AD83BFE004799B2 /* SwiftySequencer */,
@@ -186,6 +213,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B0D2BE841AD83C5C004799B2 /* libTheAmazingAudioEngine.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTheAmazingAudioEngine.a;
+			remoteRef = B0D2BE831AD83C5C004799B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B0D2BE581AD83BFE004799B2 /* Resources */ = {
@@ -343,6 +380,8 @@
 				INFOPLIST_FILE = SwiftySequencer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = TheAmazingAudioEngine/TheAmazingAudioEngine/;
 			};
 			name = Debug;
 		};
@@ -353,6 +392,8 @@
 				INFOPLIST_FILE = SwiftySequencer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = TheAmazingAudioEngine/TheAmazingAudioEngine/;
 			};
 			name = Release;
 		};
