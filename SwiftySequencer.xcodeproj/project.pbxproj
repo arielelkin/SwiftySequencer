@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0C577151ADB142700E70B18 /* AESequencerBeat.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C5770F1ADB142700E70B18 /* AESequencerBeat.m */; };
+		B0C577161ADB142700E70B18 /* AESequencerChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C577111ADB142700E70B18 /* AESequencerChannel.m */; };
+		B0C577171ADB142700E70B18 /* AESequencerChannelSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C577131ADB142700E70B18 /* AESequencerChannelSequence.m */; };
 		B0D2BE601AD83BFF004799B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D2BE5F1AD83BFF004799B2 /* AppDelegate.swift */; };
 		B0D2BE621AD83BFF004799B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D2BE611AD83BFF004799B2 /* ViewController.swift */; };
 		B0D2BE671AD83BFF004799B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D2BE661AD83BFF004799B2 /* Images.xcassets */; };
 		B0D2BE6A1AD83BFF004799B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0D2BE681AD83BFF004799B2 /* LaunchScreen.xib */; };
 		B0D2BE761AD83BFF004799B2 /* SwiftySequencerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D2BE751AD83BFF004799B2 /* SwiftySequencerTests.swift */; };
 		B0D2BE851AD83C66004799B2 /* libTheAmazingAudioEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D2BE841AD83C5C004799B2 /* libTheAmazingAudioEngine.a */; };
-		B0D2BEA01AD83EEB004799B2 /* AESequencerBeat.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D2BE9B1AD83EEB004799B2 /* AESequencerBeat.m */; };
-		B0D2BEA11AD83EEB004799B2 /* AESequencerChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D2BE9D1AD83EEB004799B2 /* AESequencerChannel.m */; };
-		B0D2BEA21AD83EEB004799B2 /* AESequencerChannelSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D2BE9F1AD83EEB004799B2 /* AESequencerChannelSequence.m */; };
 		B0D2BEA81AD83F18004799B2 /* crick.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0D2BEA41AD83F18004799B2 /* crick.caf */; };
 		B0D2BEA91AD83F18004799B2 /* hihat.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0D2BEA51AD83F18004799B2 /* hihat.caf */; };
 		B0D2BEAA1AD83F18004799B2 /* kick.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0D2BEA61AD83F18004799B2 /* kick.caf */; };
@@ -41,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B0C5770E1ADB142700E70B18 /* AESequencerBeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESequencerBeat.h; sourceTree = "<group>"; };
+		B0C5770F1ADB142700E70B18 /* AESequencerBeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESequencerBeat.m; sourceTree = "<group>"; };
+		B0C577101ADB142700E70B18 /* AESequencerChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESequencerChannel.h; sourceTree = "<group>"; };
+		B0C577111ADB142700E70B18 /* AESequencerChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESequencerChannel.m; sourceTree = "<group>"; };
+		B0C577121ADB142700E70B18 /* AESequencerChannelSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESequencerChannelSequence.h; sourceTree = "<group>"; };
+		B0C577131ADB142700E70B18 /* AESequencerChannelSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESequencerChannelSequence.m; sourceTree = "<group>"; };
 		B0D2BE5A1AD83BFE004799B2 /* SwiftySequencer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftySequencer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0D2BE5E1AD83BFF004799B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0D2BE5F1AD83BFF004799B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,12 +58,6 @@
 		B0D2BE751AD83BFF004799B2 /* SwiftySequencerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySequencerTests.swift; sourceTree = "<group>"; };
 		B0D2BE7F1AD83C5C004799B2 /* TheAmazingAudioEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TheAmazingAudioEngine.xcodeproj; path = TheAmazingAudioEngine/TheAmazingAudioEngine.xcodeproj; sourceTree = "<group>"; };
 		B0D2BE861AD83C71004799B2 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		B0D2BE9A1AD83EEB004799B2 /* AESequencerBeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESequencerBeat.h; sourceTree = "<group>"; };
-		B0D2BE9B1AD83EEB004799B2 /* AESequencerBeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESequencerBeat.m; sourceTree = "<group>"; };
-		B0D2BE9C1AD83EEB004799B2 /* AESequencerChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESequencerChannel.h; sourceTree = "<group>"; };
-		B0D2BE9D1AD83EEB004799B2 /* AESequencerChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESequencerChannel.m; sourceTree = "<group>"; };
-		B0D2BE9E1AD83EEB004799B2 /* AESequencerChannelSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESequencerChannelSequence.h; sourceTree = "<group>"; };
-		B0D2BE9F1AD83EEB004799B2 /* AESequencerChannelSequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESequencerChannelSequence.m; sourceTree = "<group>"; };
 		B0D2BEA41AD83F18004799B2 /* crick.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = crick.caf; sourceTree = "<group>"; };
 		B0D2BEA51AD83F18004799B2 /* hihat.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hihat.caf; sourceTree = "<group>"; };
 		B0D2BEA61AD83F18004799B2 /* kick.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kick.caf; sourceTree = "<group>"; };
@@ -84,11 +84,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0C577141ADB142700E70B18 /* AESequencer */ = {
+			isa = PBXGroup;
+			children = (
+				B0C5770E1ADB142700E70B18 /* AESequencerBeat.h */,
+				B0C5770F1ADB142700E70B18 /* AESequencerBeat.m */,
+				B0C577101ADB142700E70B18 /* AESequencerChannel.h */,
+				B0C577111ADB142700E70B18 /* AESequencerChannel.m */,
+				B0C577121ADB142700E70B18 /* AESequencerChannelSequence.h */,
+				B0C577131ADB142700E70B18 /* AESequencerChannelSequence.m */,
+			);
+			name = AESequencer;
+			path = TheAmazingAudioEngine/Modules/AESequencer;
+			sourceTree = "<group>";
+		};
 		B0D2BE511AD83BFE004799B2 = {
 			isa = PBXGroup;
 			children = (
+				B0C577141ADB142700E70B18 /* AESequencer */,
 				B0D2BEA31AD83F18004799B2 /* Sounds */,
-				B0D2BE991AD83EEB004799B2 /* AESequencer */,
 				B0D2BE861AD83C71004799B2 /* Bridging-Header.h */,
 				B0D2BE7F1AD83C5C004799B2 /* TheAmazingAudioEngine.xcodeproj */,
 				B0D2BE5C1AD83BFE004799B2 /* SwiftySequencer */,
@@ -150,19 +164,6 @@
 				B0D2BE841AD83C5C004799B2 /* libTheAmazingAudioEngine.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B0D2BE991AD83EEB004799B2 /* AESequencer */ = {
-			isa = PBXGroup;
-			children = (
-				B0D2BE9A1AD83EEB004799B2 /* AESequencerBeat.h */,
-				B0D2BE9B1AD83EEB004799B2 /* AESequencerBeat.m */,
-				B0D2BE9C1AD83EEB004799B2 /* AESequencerChannel.h */,
-				B0D2BE9D1AD83EEB004799B2 /* AESequencerChannel.m */,
-				B0D2BE9E1AD83EEB004799B2 /* AESequencerChannelSequence.h */,
-				B0D2BE9F1AD83EEB004799B2 /* AESequencerChannelSequence.m */,
-			);
-			path = AESequencer;
 			sourceTree = "<group>";
 		};
 		B0D2BEA31AD83F18004799B2 /* Sounds */ = {
@@ -295,12 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C577171ADB142700E70B18 /* AESequencerChannelSequence.m in Sources */,
 				B0EFDD051ADB0D1100FACD74 /* AudioManager.swift in Sources */,
-				B0D2BEA21AD83EEB004799B2 /* AESequencerChannelSequence.m in Sources */,
+				B0C577151ADB142700E70B18 /* AESequencerBeat.m in Sources */,
 				B0D2BE621AD83BFF004799B2 /* ViewController.swift in Sources */,
-				B0D2BEA11AD83EEB004799B2 /* AESequencerChannel.m in Sources */,
+				B0C577161ADB142700E70B18 /* AESequencerChannel.m in Sources */,
 				B0D2BE601AD83BFF004799B2 /* AppDelegate.swift in Sources */,
-				B0D2BEA01AD83EEB004799B2 /* AESequencerBeat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
