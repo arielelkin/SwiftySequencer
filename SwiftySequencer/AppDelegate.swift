@@ -13,14 +13,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    var audioManager = AudioManager()
+
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        var viewController = ViewController(nibName: nil, bundle: nil)
+        let viewController = ViewController(nibName: nil, bundle: nil)
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()
 
         return true
     }
 
+    func applicationWillResignActive(application: UIApplication) {
+        audioManager.stop()
+    }
+
+    func applicationDidBecomeActive(application: UIApplication) {
+        audioManager.start()
+    }
 }
+

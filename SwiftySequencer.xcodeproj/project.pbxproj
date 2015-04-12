@@ -20,6 +20,7 @@
 		B0D2BEA91AD83F18004799B2 /* hihat.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0D2BEA51AD83F18004799B2 /* hihat.caf */; };
 		B0D2BEAA1AD83F18004799B2 /* kick.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0D2BEA61AD83F18004799B2 /* kick.caf */; };
 		B0D2BEAB1AD83F18004799B2 /* woodblock.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0D2BEA71AD83F18004799B2 /* woodblock.caf */; };
+		B0EFDD051ADB0D1100FACD74 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EFDD041ADB0D1100FACD74 /* AudioManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		B0D2BEA51AD83F18004799B2 /* hihat.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hihat.caf; sourceTree = "<group>"; };
 		B0D2BEA61AD83F18004799B2 /* kick.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kick.caf; sourceTree = "<group>"; };
 		B0D2BEA71AD83F18004799B2 /* woodblock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = woodblock.caf; sourceTree = "<group>"; };
+		B0EFDD041ADB0D1100FACD74 /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				B0D2BE5F1AD83BFF004799B2 /* AppDelegate.swift */,
 				B0D2BE611AD83BFF004799B2 /* ViewController.swift */,
+				B0EFDD041ADB0D1100FACD74 /* AudioManager.swift */,
 				B0D2BE661AD83BFF004799B2 /* Images.xcassets */,
 				B0D2BE681AD83BFF004799B2 /* LaunchScreen.xib */,
 				B0D2BE5D1AD83BFE004799B2 /* Supporting Files */,
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0EFDD051ADB0D1100FACD74 /* AudioManager.swift in Sources */,
 				B0D2BEA21AD83EEB004799B2 /* AESequencerChannelSequence.m in Sources */,
 				B0D2BE621AD83BFF004799B2 /* ViewController.swift in Sources */,
 				B0D2BEA11AD83EEB004799B2 /* AESequencerChannel.m in Sources */,
